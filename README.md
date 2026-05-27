@@ -83,4 +83,7 @@ Example:
   }
 }
 
+# Screenshot/Output of Project:
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/a537c28f-9a40-46ff-9300-a6176808564f" />
+
 Note:(Built for Medicaps University | Developed with Flask + NLTK)
