@@ -1,4 +1,5 @@
 # 🎓 Campus Mind - Medicaps University Enquiry Chatbot
+👉 Live Demo: Click Here to Chat with Campus Mind->(https://campus-mind-chatbot.onrender.com)
 
 Welcome to **Campus Mind**, a smart and interactive college enquiry chatbot designed specifically for Medicaps University. This multilingual assistant helps students and parents fetch real-time information about admissions, official fee structures, courses, placements, and campus facilities.
 
