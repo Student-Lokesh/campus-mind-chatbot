@@ -3,6 +3,12 @@
 
 Welcome to **Campus Mind**, a smart and interactive college enquiry chatbot designed specifically for Medicaps University. This multilingual assistant helps students and parents fetch real-time information about admissions, official fee structures, courses, placements, and campus facilities.
 
+## 📸 Project Screenshot
+!Campus Mind Chatbot->(screenshot.png)
+
+## 📄 Project Report
+👉 Click here to view the complete Project Report->(Mini Project Final Report (567,543,560).pdf)
+
 ## ✨ Key Features
 
 * 🗣️ **Bilingual Support (English & Hinglish):** Automatically detects the user's language and responds in the same tone (English or Hinglish) for a natural conversational flow.
@@ -82,8 +88,5 @@ Example:
     "hi": ["Central library main admin block me hai bhai."]
   }
 }
-
-# Screenshot/Output of Project:
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/a537c28f-9a40-46ff-9300-a6176808564f" />
 
 Note:(Built for Medicaps University | Developed with Flask + NLTK)
