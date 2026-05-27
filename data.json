@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hii", "hello", "hey", "good morning", "namaste", "kya haal hai", "kaise ho", "sun", "suno", "bhai", "bro", "yaar", "aur bhai"],
+      "responses": {
+        "en": ["Hello! Welcome to Medicaps University Admissions. How can I help you today?", "Hi there! I'm your Campus Mind assistant. Ask me about admissions, courses, or placements!"],
+        "hi": ["Hello bhai! Medicaps University me tumhara swagat hai. Aaj main tumhari kya madad kar sakta hu?", "Hi! Main tumhara Campus Mind assistant hu. Admission, fees, ya placement ke baare me kuch bhi pucho!"]
+      
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thank you so much", "thanks a lot", "helpful", "great help", "shukriya", "dhanyawad", "thanks bhai", "accha laga", "thanku", "tq"],
+      "responses": {
+        "en": [
+          "You're very welcome! 😊 I'm glad I could help. Best of luck with your Medicaps journey. Let me know if you need anything else!",
+          "My pleasure! If you ever have more questions about admissions or campus life, I'm always here. Have a great day!"
+        ],
+        "hi": [
+          "Aree welcome bhai! 😊 Mujhe khushi hai main tumhare kaam aa saka. Medicaps ke liye all the best, aur koi doubt ho toh zaroor poochna!",
+          "Mera toh kaam hi yahi hai bhai! Agar admission ya fees ko leke koi aur chinta ho toh wapas message kar dena. Apna dhyan rakhna!"
+        ]
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see ya", "later", "take care", "quit", "exit", "chalta hu", "milte hai", "ok bye"],
+      "responses": {
+        "en": [
+          "Goodbye! Have a fantastic day ahead. Hope to see you on the Medicaps campus soon! 👋",
+          "Take care! Feel free to come back whenever you have more questions. Bye!"
+        ],
+        "hi": [
+          "Bye bhai! Apna dhyan rakhna. Umeed hai jaldi hi tumhe Medicaps campus me dekhunga! 👋",
+          "Chalta hu bhai! Admission ke time koi help chahiye ho toh wapas aa jana. Take care!"
+        ]
+      }
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["how to apply", "admission process", "application form", "admission kaise lu", "admission ka kya process hai", "form kaise bhare"],
+      "responses": {
+        "en": ["📋 **Admission Process (2024-25):**\n1. Apply for MU-SAT on the official website.\n2. Appear for the online exam.\n3. Selection is based on MU-SAT scores and merit.\n4. Shortlisted candidates are called for document verification."],
+        "hi": ["📋 **Admission Process:**\nBhai, Medicaps me admission ka main rasta **MU-SAT** exam hai.\n1. Pehle website pe jaake MU-SAT ka form bharo.\n2. Online exam do (June-August me).\n3. Tumhare marks ke basis pe merit list banegi.\n4. Uske baad document verification aur counseling hogi."]
+      }
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "who can apply", "minimum marks", "cutoff", "qualify", "criteria", "requirements", "am I eligible", "kitne percentage chahiye"],
+      "responses": {
+        "en": ["✅ **Eligibility Criteria:**\n• **B.Tech:** 10+2 with Physics & Maths (min 45% for Gen, 40% for reserved).\n• **BCA/BBA:** 10+2 in any stream.\n• **MBA/MCA:** Graduation with min 50% marks."],
+        "hi": ["✅ **Eligibility Criteria:**\n• **B.Tech:** 12th me Physics aur Maths compulsory hain (General ke liye 45%, reserved ke liye 40%).\n• **BCA/BBA:** 12th pass hona chahiye kisi bhi stream se.\n• **MBA/MCA:** Graduation me kam se kam 50% marks zaroori hain."]
+      }
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "programs", "what courses", "which courses", "available programs", "list of courses", "branches", "what do you offer", "stream", "kaun se courses hai", "kya courses hai", "courses kya hai"],
+      "responses": {
+        "en": ["🎓 **Courses Offered at Medicaps:**\n• **Engineering:** B.Tech (CSE, AI, Data Science, ECE, ME, CE, Robotics).\n• **Management:** BBA & MBA.\n• **Computer Applications:** BCA & MCA.\n• **Science & Pharma:** B.Sc (Hons), B.Pharm, M.Pharm.\n• **Law:** BBA LLB (Hons)."],
+        "hi": ["🎓 **Courses Offered at Medicaps:**\nYaha options ki kami nahi hai bhai:\n• **Engineering:** B.Tech (CSE, AI, Data Science, ECE, Mechanical, Civil, Robotics).\n• **Management:** BBA aur MBA.\n• **Computer Applications:** BCA aur MCA.\n• **Science & Pharma:** B.Sc, B.Pharm.\n• **Law:** BBA LLB.\nBatao kis branch ki fees janni hai?"]
+      }
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee structure", "how much", "tuition fees", "fees kitni hai", "paisa kitna lagega", "btech ki fees kya hai", "kharcha kitna aayega"],
+      "responses": {
+        "en": ["💰 **Annual Fee Estimates:**\n• **B.Tech (CSE/IT):** ₹2.30L - ₹3.25L\n• **B.Tech (Other):** ₹1.50L - ₹2.00L\n• **BBA/BCA:** ₹1.00L - ₹1.50L\n• **MBA/MCA:** ₹1.30L - ₹1.65L\nScholarships are available via MU-SAT to reduce these costs."],
+        "hi": ["💰 **Fees ki Details (Per Year Approx):**\n• **B.Tech (CSE/IT):** ₹2.30 Lakh se ₹3.25 Lakh tak.\n• **B.Tech (Core branches):** ₹1.50 Lakh se ₹2.00 Lakh.\n• **BBA/BCA:** ₹1.00 Lakh se ₹1.50 Lakh.\n• **MBA/MCA:** ₹1.30 Lakh se ₹1.65 Lakh.\nBhai, scholarship se ye fees kaafi kam ho sakti hai!"]
+      }
+    },
+    {
+      "tag": "placements",
+      "patterns": ["placement", "highest package", "average package", "jobs", "companies", "placement kaisa hai", "job lagti hai kya", "package kitna milta hai"],
+      "responses": {
+        "en": ["🚀 **Placement Record:**\n• **Highest Package:** ₹52 LPA\n• **Average Package:** ₹6.5 LPA\n• **Top Recruiters:** Amazon, Google, Goldman Sachs, TCS, Deloitte.\nOver 1800+ students got placed in the last drive."],
+        "hi": ["🚀 **Placement Stats:**\nBhai, yahan ke placements ekdum top hain:\n• **Highest Package:** ₹52 LPA gaya hai.\n• **Average Package:** ₹6.5 LPA rehta hai.\n• **Companies:** Amazon, Google, aur TCS jaisi 350+ companies aati hain."]
+      }
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "accommodation", "room fees", "hostel hai kya", "rehne ka kya jugaad hai", "hostel facility kaisi hai"],
+      "responses": {
+        "en": ["🏠 **Hostel Details:**\n• **Non-AC:** ₹90,000/year\n• **AC Room:** ₹1,27,500/year\n• **Mess Fees:** ₹40,000 (includes all meals).\nFacilities include Wi-Fi, Gym, Sports, and 24/7 security."],
+        "hi": ["🏠 **Hostel ki Details:**\nCampus me boys aur girls ke separate hostels hain:\n• **Non-AC Room:** ₹90,000 saal ka.\n• **AC Room:** ₹1,27,500 saal ka.\n• **Mess ka khana:** ₹40,000 alag se lagenge."]
+      }
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["facilities", "infrastructure", "library", "lab", "campus", "sports", "canteen", "wifi", "campus me kya kya hai", "ground kaisa hai"],
+      "responses": {
+        "en": ["🏛️ **Campus Facilities:**\nCentral Library (50K+ books), High-tech computer/research labs, Free Wi-Fi, Sports complex (pool, cricket), Medical center, and multiple cafeterias."],
+        "hi": ["🏛️ **Campus Facilities:**\nBhai campus me sab suvidha hai:\n50,000+ books wali library, latest labs, pure campus me free Wi-Fi, sports ground, swimming pool, aur badiya canteen."]
+      }
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["scholarship", "fee waiver", "discount", "scholarship kaise milegi", "fee kam hogi kya"],
+      "responses": {
+        "en": ["🏆 **Scholarships:**\n• **MU-SAT Merit:** Up to 100% tuition fee waiver for top rankers.\n• **Board Merit:** Discounts for state/district toppers.\n• **Income-based:** Aid for families with income < ₹2L (with 80%+ marks)."],
+        "hi": ["🏆 **Scholarships:**\nBhai, paise bachane ke kai raste hain:\n• **MU-SAT rank:** 10% se 100% tak fees maaf ho sakti hai.\n• **12th marks:** Agar tum topper ho toh special discount milega.\n• **Income:** Garib baccho (BPL card) ke liye bhi financial aid milti hai."]
+      }
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": ["entrance exam", "entrance test", "JEE", "CUET", "university exam", "exam pattern", "musat kya hai", "exam kab hoga"],
+      "responses": {
+        "en": ["📝 **Entrance Exam (MU-SAT):**\nRequired for most UG/PG courses for admission and scholarships. It's an online exam covering Aptitude, Verbal, and Domain subjects (Physics/Maths/etc)."],
+        "hi": ["📝 **Entrance Exam (MU-SAT):**\nBhai, admission aur scholarship ke liye MU-SAT test dena padta hai. Ye online hota hai jisme Aptitude, English aur 12th ke subjects aate hain."]
+      }
+    },
+    {
+      "tag": "about",
+      "patterns": ["about college", "about university", "tell me about", "what is medicaps", "history", "college kaisa hai", "medicaps kya hai"],
+      "responses": {
+        "en": ["🏫 **About Medicaps University:**\nEstablished in 2000, it's a NAAC A+ accredited university with 10,000+ students, 800+ faculty, and 40+ programs."],
+        "hi": ["🏫 **About Medicaps University:**\nSaal 2000 me shuru hua ye college ab ek badi University hai jise NAAC A+ grade mila hai. Yaha 10,000+ students padhte hain aur iska mahaul ekdum badiya hai."]
+      }
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone number", "address", "location", "college kahan hai", "address kya hai", "phone number dena"],
+      "responses": {
+        "en": ["📞 **Contact Info:**\n• **Address:** AB Road, Pigdamber, Rau, Indore.\n• **Phone:** +91-731-4259500\n• **Email:** admissions@medicaps.ac.in"],
+        "hi": ["📞 **Contact Details:**\n• **Pata:** AB Road, Pigdamber, Rau, Indore.\n• **Phone:** +91-731-4259500\n• **Email:** admissions@medicaps.ac.in\nCollege Indore station se sirf 10 min ki doori par hai."]
+      }
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": {
+        "en": ["I'm not sure about that. Could you please rephrase?\nYou can ask about admissions, courses, fees, or placements.", "Sorry, I didn't catch that. Try asking about courses or campus facilities."],
+        "hi": ["Bhai, ye mujhe samajh nahi aaya. Thoda simple karke puchoge?\nAap courses, admission, fees, ya placement ke baare me puch sakte ho.", "Hmm, main confuse ho gaya! Kya aap fees ya courses ke baare me janna chahte ho?"]
+      }
+    }
+  ]
+}
